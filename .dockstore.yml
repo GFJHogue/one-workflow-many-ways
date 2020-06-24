@@ -1,0 +1,11 @@
+version: 1.2
+workflows:
+  - name: bamqc_CWL
+    subclass: CWL
+    primaryDescriptorPath: /cwl/workflow.cwl
+  - name: bamqc_WDL
+    subclass: WDL
+    primaryDescriptorPath: /wdl/bamqc.wdl
+  - name: bamqc_NFL
+    subclass: NFL
+    primaryDescriptorPath: /nextflow-workflow/nextflow.config
