@@ -11,4 +11,4 @@ workflows:
     primaryDescriptorPath: /wdl/bamqc.wdl
   - name: bamqc_NFL
     subclass: NFL
-    primaryDescriptorPath: /nextflow-workflow/nextflow.config
+    primaryDescriptorPath:  /nextflow-workflow/nextflow.config
